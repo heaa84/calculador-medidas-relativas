@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTIDOR</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">CONVERTIDOR DE MEDIDAS RELATIVAS</h1>
+        <h3 class="formula"> </h3>
+    </header>
+    
+    <table border="solid" class="tabla">
+        <tr>
+            <td>Elemento contenedor:</td>
+            <td>Elemento:</td>
+            <td>Porcentaje:</td>
+            
+        </tr>
+        
+        <tr>
+            <td>width( ancho )= <input type="number" class="input__ancho__contenedor"
+                id="input__ancho__contenedor">ancho en px</td>
+                <td>width( ancho )= <input type="number" class="input__ancho__elemento">ancho en px</td>
+                <td>
+                    <p class="porcentaje__ancho"></p> %
+                </td>
+            </tr>
+            
+            <tr>
+                <td>width( ancho )= <input type="number" class="input__alto__contenedor">ancho en px</td>
+                <td>width( ancho )= <input type="number" class="input__alto__elemento">ancho en px</td>
+                <td>
+                    <p class="porcentaje__alto"></p> %
+                </td>
+            </tr>
+            
+        </table>
+    <button class="btn__convertir" onclick="convertir()"> Convertir</button>
+    
+    
+</body>
+
+<script src="app.js"></script>
+
+</html>
